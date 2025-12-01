@@ -1,8 +1,8 @@
 <img width="100%" src="BookStore/React-Native/bookstore/bookstore-3.png">
 
-<h3> BookStoreApp </h3>
+<h1> BookStoreApp - A book sharing social media app. </h1>
 
-BookstoreApp is a modern mobile application developed using React Native and Expo, designed to offer users a seamless experience in discovering, managing, and interacting with a collection of books. Built with JavaScript on the frontend, it leverages Zustand for efficient and lightweight state management. The backend is powered by Express.js, with MongoDB serving as the database for storing and retrieving book data.
+BookstoreApp is a modern mobile application developed using React Native and Expo, designed to offer users a seamless experience in discovering, managing, and interacting with a collection of books. Built with JavaScript on the frontend, it leverages Zustand for efficient and lightweight state management. The backend is powered by Express.js, with MongoDB serving as the database for storing and retrieving book data. The books are stored in a pdf links and is shared throughout the app where multiple users can access the resources of the books.
 
 <!-- README.md Badge -->
 
