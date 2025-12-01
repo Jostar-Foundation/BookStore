@@ -38,9 +38,99 @@ BookstoreApp is a modern mobile application developed using React Native and Exp
   
 </div>
 
+## ✨ Features
+
+- 📖 Browse an extensive list of books with detailed information  
+- 🔎 Search and filter books by title, author, or genre  
+- ⭐ Mark favorite books for easy access  
+- 📝 Add personal notes for any book  
+- 🗂️ Global state handling using Zustand  
+- 🌐 Backend API integration for dynamic data  
+- 📱 Cross-platform (Android + iOS) via Expo  
+- ⚡ Smooth performance and clean UI
+
+
+<table>
+  <tr>
+    <td valign="top">
+
+  <h2>🔗 API Endpoints</h2>
+      <table>
+        <tr>
+          <th>Method</th>
+          <th>Endpoint</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td>GET</td>
+          <td><code>/books</code></td>
+          <td>Get all books</td>
+        </tr>
+        <tr>
+          <td>GET</td>
+          <td><code>/books/:id</code></td>
+          <td>Get a specific book</td>
+        </tr>
+        <tr>
+          <td>POST</td>
+          <td><code>/books</code></td>
+          <td>Add a new book</td>
+        </tr>
+        <tr>
+          <td>PUT</td>
+          <td><code>/books/:id</code></td>
+          <td>Update a book</td>
+        </tr>
+        <tr>
+          <td>DELETE</td>
+          <td><code>/books/:id</code></td>
+          <td>Delete a book</td>
+        </tr>
+      </table>
+
+  </td>
+
+
+  <td valign="top" style="padding-left: 30px;">
+      <h2>🛠️ Tech Stack</h2>
+      <table>
+        <tr>
+          <th>Frontend</th>
+          <th>Backend</th>
+        </tr>
+        <tr>
+          <td>React Native</td>
+          <td>Express.js</td>
+        </tr>
+        <tr>
+          <td>Expo</td>
+          <td>Node.js</td>
+        </tr>
+        <tr>
+          <td>JavaScript</td>
+          <td>MongoDB</td>
+        </tr>
+        <tr>
+          <td>Zustand</td>
+          <td>Mongoose</td>
+        </tr>
+        <tr>
+          <td>React Navigation</td>
+          <td></td>
+        </tr>
+      </table>
+
+   </td>
+  </tr>
+</table>
+
+
+
 ## Project Overview
 
 <img width="100%" src="BookStore/React-Native/bookstore/bookstore-1.png">
+<img width="100%" src="https://github.com/Jostar-Foundation/BookStore/blob/main/assets/bs-1.png">
+<img width="100%" src="assets/bs-2.png">
 
 ---
 
