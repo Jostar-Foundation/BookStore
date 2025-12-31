@@ -125,6 +125,22 @@ BookstoreApp is a modern mobile application developed using React Native and Exp
 </table>
 
 
+> [!IMPORTANT]
+>
+> **Error:**  
+> - PDFs sometimes fail to load inside the mobile viewer with a **Network / CORS error**.
+>
+> **Cause:**  
+> - Some book links were served over **HTTP** instead of **HTTPS**,  
+> - or the server did not include proper CORS headers (`Access-Control-Allow-Origin`).
+>
+> **Solution:**  
+> - Enforced **HTTPS links** for all book resources.  
+> - Updated the Express server to include:
+>   - `Access-Control-Allow-Origin: *`
+>   - `Access-Control-Allow-Methods: GET`
+> - Added validation to reject insecure PDF URLs in the database.
+
 
 ## Project Overview
 
